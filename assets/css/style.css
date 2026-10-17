@@ -163,8 +163,22 @@ p {
 }
 
 .navbar-brand img {
-  height: 44px;
+  height: 50px;
   width: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand img {
+    height: 44px;
+  }
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.02);
 }
 
 .nav-link {
@@ -1031,6 +1045,14 @@ body.nav-popup-open {
   color: var(--gjt-moccasin);
   padding: 64px 0 24px;
   font-size: 0.9375rem;
+}
+
+.site-footer img {
+  height: 52px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .site-footer a {

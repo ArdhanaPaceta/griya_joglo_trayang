@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="gjtBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C1A"/>
+      <stop offset="100%" stop-color="#241208"/>
+    </linearGradient>
+    <linearGradient id="gjtGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2CE94"/>
+      <stop offset="100%" stop-color="#C8963E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Squircle -->
+  <rect width="128" height="128" rx="28" fill="url(#gjtBg)"/>
+  <rect x="3" y="3" width="122" height="122" rx="25" fill="none" stroke="#C8963E" stroke-width="2.5" stroke-opacity="0.6"/>
+  
+  <g transform="translate(18, 14)">
+    <!-- Mustaka Crown -->
+    <path d="M46 10 L44 6 L46 2 L48 6 Z" fill="#FFE4B5" />
+    
+    <!-- Tier 1 -->
+    <polygon points="40,15 52,15 48,9 44,9" fill="#FFE4B5" />
+    <polygon points="34,26 58,26 51,15 41,15" fill="url(#gjtGold)" />
+    <rect x="32" y="26" width="28" height="3" rx="1.5" fill="#FFE4B5" />
+    
+    <!-- Tier 2 -->
+    <polygon points="24,45 68,45 57,29 35,29" fill="url(#gjtGold)" />
+    <rect x="21" y="45" width="50" height="3.5" rx="1.5" fill="#FFE4B5" />
+    
+    <!-- Tier 3 Broad Roof -->
+    <polygon points="7,70 85,70 67,48 25,48" fill="url(#gjtGold)" />
+    <rect x="3" y="70" width="86" height="4.5" rx="2" fill="#FFE4B5" />
+    
+    <!-- 4 Pillars -->
+    <rect x="17" y="74.5" width="6.5" height="21" rx="1.5" fill="#F2CE94" />
+    <rect x="33.5" y="74.5" width="6.5" height="21" rx="1.5" fill="url(#gjtGold)" />
+    <rect x="52" y="74.5" width="6.5" height="21" rx="1.5" fill="url(#gjtGold)" />
+    <rect x="68.5" y="74.5" width="6.5" height="21" rx="1.5" fill="#F2CE94" />
+    
+    <!-- Base Plinth -->
+    <rect x="9" y="95.5" width="74" height="4.5" rx="2" fill="#FFE4B5" />
+  </g>
+</svg>
