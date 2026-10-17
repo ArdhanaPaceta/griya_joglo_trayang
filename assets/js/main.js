@@ -7,7 +7,7 @@
 document.documentElement.classList.add('js');
 
 // 2. Konfigurasi WhatsApp Resmi Bisnis
-const WA_PHONE_NUMBER = "6281234567890"; // Format internasional tanpa simbol + atau spasi
+const WA_PHONE_NUMBER = "6281235356611"; // Format internasional tanpa simbol + atau spasi
 
 /**
  * Helper untuk membuka WhatsApp dengan pesan terenkripsi
