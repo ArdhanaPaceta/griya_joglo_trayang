@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" aria-label="Griya Joglo Trayang Logo">
+  <!-- Joglo Roof Icon -->
+  <g transform="translate(10, 8)">
+    <!-- Top Crown (Mustaka) -->
+    <path d="M30 4 L34 4 L32 0 Z" fill="#C8963E" />
+    <path d="M28 7 L36 7 L34 4 L30 4 Z" fill="#8B5A2B" />
+    <!-- Tier 1 Top Roof -->
+    <path d="M24 14 L40 14 L35 7 L29 7 Z" fill="#6F4521" />
+    <path d="M22 17 L42 17 L40 14 L24 14 Z" fill="#C8963E" />
+    <!-- Tier 2 Mid Roof -->
+    <path d="M16 26 L48 26 L42 17 L22 17 Z" fill="#8B5A2B" />
+    <path d="M14 29 L50 29 L48 26 L16 26 Z" fill="#C8963E" />
+    <!-- Tier 3 Broad Main Roof -->
+    <path d="M2 42 L62 42 L50 29 L14 29 Z" fill="#4A2C1A" />
+    <path d="M0 45 L64 45 L62 42 L2 42 Z" fill="#8B5A2B" />
+    <!-- Soko Guru (4 pillars) -->
+    <rect x="8" y="45" width="4" height="18" rx="1" fill="#8B5A2B" />
+    <rect x="22" y="45" width="4" height="18" rx="1" fill="#6F4521" />
+    <rect x="38" y="45" width="4" height="18" rx="1" fill="#6F4521" />
+    <rect x="52" y="45" width="4" height="18" rx="1" fill="#8B5A2B" />
+    <!-- Floor Plinth (Umpak) -->
+    <rect x="2" y="61" width="60" height="3" rx="1" fill="#C8963E" />
+  </g>
+  <!-- Text Brand -->
+  <text x="86" y="34" font-family="'Fraunces', Georgia, serif" font-size="20" font-weight="600" fill="#4A2C1A" letter-spacing="0.5">GRIYA JOGLO</text>
+  <text x="86" y="52" font-family="'Fraunces', Georgia, serif" font-size="16" font-weight="600" fill="#8B5A2B" letter-spacing="2">TRAYANG</text>
+  <text x="87" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="500" fill="#6B4A32" letter-spacing="1.5">MAHAKARYA KAYU JATI JAWA</text>
+</svg>
